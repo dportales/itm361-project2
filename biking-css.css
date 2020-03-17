@@ -1,4 +1,7 @@
-
+body{
+	background-image: url("images/bikingbd.jpg");
+	
+}
 
 .opt{
   text-align: center;
@@ -18,4 +21,9 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+h1{
+	text-align: center;
+
 }
