@@ -1,1 +1,21 @@
-biking css
+
+
+.opt{
+  text-align: center;
+  background-color: white;
+  width: 900px;
+}
+
+.navigate{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 20px
+}
+
+.panorama{
+	width: 1005;
+	height: 280;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
