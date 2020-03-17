@@ -1,11 +1,26 @@
 body {
 	background-color: gray;
 	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
 	color: white;
 }
 
-table.navigate{
+.opt{
+  text-align: center;
+  background-color: white;
+  width: 900px;
+}
+
+.navigate{
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	border-spacing: 20px
+}
+
+.banner{
+	width: 360px; 
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
