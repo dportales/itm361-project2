@@ -1,1 +1,108 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.resume{
+  background-image: url("images/resumebd.jpg");
+}
 
+.biking{
+  background-image: url("images/bikingbd.jpg");
+  color: black;
+}
+
+.fifa{
+  background-image: url("images/fifabd.jfif");
+}
+ 
+.rh{
+  color: #D2B4A9;
+}
+h1{
+  text-align: center;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.opt{
+  text-align: center;
+  background-color: white;
+  width: 900px;
+}
+
+.navigate{
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 20px
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner{
+  width: 360px; 
+  height: 35px;
+}
+
+.pic{
+  width: 300px; 
+  height: 400px;
+}
+
+.panorama{
+  width: 1005px;
+  height: 280px;
+}
+
+.ima{
+  background-color: white;
+  border-spacing: 10px;
+  border-radius: 15px;
+}
+
+.food{
+  width: 200px;
+  height: 200px;
+}
+
+.tech{
+  width: 350px;
+  height: 200px;
+}
+
+.kit{
+  width: 410px;
+  height: 200px;
+}
+
+.info{
+  background-color: #424242;
+  opacity: .8;
+  border-spacing: 10px;
+  border-radius: 15px;
+}
+
+.merge1{
+  background-color: #424242;
+  opacity: .8;
+  border-spacing: 10px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.merge2{
+  background-color: #424242;
+  border-spacing: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.land{
+  width: 1400px;
+  height: 500px;
+}
