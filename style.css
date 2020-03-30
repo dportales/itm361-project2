@@ -45,6 +45,7 @@ body{
 .rh{
   color: #D2B4A9;
 }
+
 header{
   text-align: center;
 }
@@ -52,7 +53,6 @@ header{
 h2{
   text-decoration: underline;
 }
-
 
 img{
   display: block;
@@ -96,6 +96,11 @@ img{
   height: 200px;
 }
 
+.land{
+  width: 1400px;
+  height: 500px;
+}
+
 .info{
   background-color: #424242;
   opacity: .8;
@@ -114,9 +119,4 @@ img{
   background-color: #424242;
   border-spacing: 10px;
   border-radius: 0px 15px 15px 0px;
-}
-
-.land{
-  width: 1400px;
-  height: 500px;
 }
