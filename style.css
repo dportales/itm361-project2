@@ -75,11 +75,20 @@ img{
   height: 280px;
 }
 
-.ima{
-  background-color: white;
-  border-spacing: 10px;
-  border-radius: 15px;
+
+.div1{
+	width: 65%;
+	height: 280px;
+	float: left;
 }
+
+.div2{
+  margin-left: 35%;	
+  height: 280px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 
 .food{
   width: 200px;
