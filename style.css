@@ -15,6 +15,45 @@ body{
 .fifa{
   background-image: url("images/fifabd.jfif");
 }
+
+
+
+.opt{
+  text-align: center;
+  background-color: white;
+  width: 900px;
+}
+
+
+
+
+
+.navigate{
+  background-color: black;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  display: inline-block;
+}
+
+.navigate a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigate a:hover{
+  background-color: gray;
+  color: black;
+}
+
+.navigate a.active{
+  background-color: gray;
+  color: white;
+}
+
+
  
 .rh{
   color: #D2B4A9;
@@ -25,18 +64,6 @@ h1{
 
 h2{
   text-decoration: underline;
-}
-
-.opt{
-  text-align: center;
-  background-color: white;
-  width: 900px;
-}
-
-.navigate{
-  margin-left: auto;
-  margin-right: auto;
-  border-spacing: 20px
 }
 
 
