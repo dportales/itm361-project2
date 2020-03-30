@@ -1,7 +1,9 @@
+/* BODY LAYOUT */
 body{
   font-family: 'PT Sans', sans-serif;
-  font-size: 120%;
+  font-size: 1.2em;
   color: white;
+  
 }
 .resume{
   background-image: url("images/resumebd.jpg");
@@ -15,12 +17,76 @@ body{
 .fifa{
   background-image: url("images/fifabd.jfif");
 }
+ 
+.rh{
+  color: #D2B4A9;
+}
 
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 3.25vmax;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+/* "TABLE" FORMATTING */
+.div1{
+  width: 65%;
+  height: 280px;
+  float: left;
+}
+
+.div2{
+  margin-left: 35%;	
+  height: 280px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.div3{
+  width: 100%;
+  height: 280px;
+  float: left;
+  background-color: #424242;
+  opacity: 80%;
+  border-spacing: 10px;
+  border-radius: 15px;
+}
+
+.div4{
+  width: 72%;
+  height: 420px;
+  float: left;
+  background-color: #424242;
+  opacity: 80%;
+  border-spacing: 10px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.div5{
+  margin-left: 30%;	
+  height: 420px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #424242;
+  opacity: 100%;
+  border-spacing: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* NAVIGATION */
 .navigate{
   background-color: black;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
   display: inline-block;
+  line-height: 2em;
 }
 
 .navigate a{
@@ -41,19 +107,7 @@ body{
   color: white;
 }
 
- 
-.rh{
-  color: #D2B4A9;
-}
-
-header{
-  text-align: center;
-}
-
-h2{
-  text-decoration: underline;
-}
-
+/* IMAGE FORMATING */
 img{
   display: block;
   margin-left: auto;
@@ -61,34 +115,16 @@ img{
 }
 
 .banner{
-  width: 360px; 
-  height: 35px;
+  width: 30%
 }
 
 .pic{
-  width: 300px; 
-  height: 400px;
+  width: 20%;
 }
 
 .panorama{
-  width: 1005px;
-  height: 280px;
+  width: 90%;
 }
-
-
-.div1{
-	width: 65%;
-	height: 280px;
-	float: left;
-}
-
-.div2{
-  margin-left: 35%;	
-  height: 280px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
 
 .food{
   width: 200px;
@@ -103,29 +139,4 @@ img{
 .kit{
   width: 410px;
   height: 200px;
-}
-
-.land{
-  width: 1400px;
-  height: 500px;
-}
-
-.info{
-  background-color: #424242;
-  opacity: .8;
-  border-spacing: 10px;
-  border-radius: 15px;
-}
-
-.merge1{
-  background-color: #424242;
-  opacity: .8;
-  border-spacing: 10px;
-  border-radius: 15px 0px 0px 15px;
-}
-
-.merge2{
-  background-color: #424242;
-  border-spacing: 10px;
-  border-radius: 0px 15px 15px 0px;
 }
